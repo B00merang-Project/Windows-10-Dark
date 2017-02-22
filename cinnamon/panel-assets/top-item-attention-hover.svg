@@ -7,14 +7,15 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.48.4 r9939"
    width="24"
    height="24"
-   sodipodi:docname="popup.svg">
+   sodipodi:docname="top-item-attention (copie).png">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -23,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -38,22 +39,25 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="699"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
      id="namedview4"
      showgrid="false"
      inkscape:zoom="9.8333333"
      inkscape:cx="12"
-     inkscape:cy="4.9933346"
+     inkscape:cy="12"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1"
+     inkscape:window-maximized="0"
      inkscape:current-layer="svg2" />
-  <rect
-     style="opacity:0.93;fill:#141414;fill-opacity:1;stroke:#141414;stroke-opacity:1"
-     id="rect4133"
-     width="23.38983"
-     height="23.288136"
-     x="0.40677965"
-     y="0.40677965" />
+  <image
+     width="24"
+     height="24"
+     xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAADFJREFU
+SIlj3OOulsZAQ8BES8NHLRi1YNSCUQtGLRi1YNSCwWMBCwMDw0xaWkBzHwAAgF8CWuPJLIIAAAAA
+SUVORK5CYII=
+"
+     id="image10"
+     x="0"
+     y="0" />
 </svg>

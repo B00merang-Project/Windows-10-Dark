@@ -7,28 +7,30 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   id="svg2987"
+   id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r"
    width="24"
    height="24"
-   sodipodi:docname="bottom-item-hover.svg">
+   viewBox="0 0 24 24"
+   sodipodi:docname="bottom-item-active.svg">
   <metadata
-     id="metadata2993">
+     id="metadata8">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs2991" />
+     id="defs6" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -38,24 +40,26 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="698"
-     id="namedview2989"
+     inkscape:window-width="714"
+     inkscape:window-height="480"
+     id="namedview4"
      showgrid="false"
-     inkscape:zoom="11.313709"
-     inkscape:cx="17.428591"
-     inkscape:cy="5.924523"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="12"
+     inkscape:cy="11.79661"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg2987" />
-  <rect
-     style="opacity:0.9;fill:#0078d7;fill-opacity:1;stroke:none"
-     id="rect2987"
-     width="24.005695"
-     height="23.999468"
-     x="0.00066208839"
-     y="0.00052964687"
-     rx="0"
-     ry="0" />
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <image
+     width="24"
+     height="24"
+     preserveAspectRatio="none"
+     xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAACXBI
+WXMAAA3XAAAN1wFCKJt4AAAAB3RJTUUH3wsREiwOceI0BgAAAC9JREFUSMdjLCsr82GgIWBioDEY
+tWDUglELRi0YtWDUglELBocFjPZzjvwf0j4AABn9BHs50q8WAAAAAElFTkSuQmCC
+"
+     id="image10"
+     x="0"
+     y="0" />
 </svg>
