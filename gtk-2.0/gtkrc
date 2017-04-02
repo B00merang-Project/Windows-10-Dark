@@ -240,63 +240,18 @@ style "murrine-scale" = "murrine-thin" {
 	}
 }
 
-#style "murrine-progressbar" = "murrine-thin" {
-#	bg[NORMAL] = @bg_color
-#	bg[ACTIVE] = shade (1.08, @bg_color)
-#
-#	fg[PRELIGHT] = @progressbar_color
-#
-#	engine "murrine" {
-#		roundness = 2
-#		border_shades = { 1.2, 1.2 }
-#		trough_border_shades = { 0.8, 0.8 }
-#	}
-#}
+style "progressbar" {
+	bg[NORMAL] = @bg_color
+	bg[ACTIVE] = shade( 0.9, @bg_color) #trough bg color
+	bg[SELECTED] = "#06B025" #progressbar bg color
+	bg[PRELIGHT] = @selected_bg_color
 
-style "progressbar"
-{
-  xthickness            		= 1
-  ythickness            		= 1
+	fg[PRELIGHT] = @selected_fg_color
 
-  engine "pixmap" 
-  {
-    image
-    {
-      function				= BOX
-      detail				= "trough"
-      file				= "ProgressBar/trough-progressbar.png"
-      border				= { 4, 4, 4, 4 }
-      stretch				= TRUE
-      orientation			= HORIZONTAL
-    }
-    image
-    {
-      function				= BOX
-      detail				= "bar"
-      file				= "ProgressBar/progressbar.png"
-      stretch				= TRUE
-      border				= { 3, 3, 3, 3 }
-      orientation			= HORIZONTAL
-    }
-    image
-    {
-      function				= BOX
-      detail				= "trough"
-      file				= "ProgressBar/trough-progressbar_v.png"
-      border				= { 4, 4, 4, 4 }
-      stretch				= TRUE
-      orientation			= VERTICAL
-    }
-    image
-    {
-      function				= BOX
-      detail				= "bar"
-      file				= "ProgressBar/progressbar_v.png"
-      stretch				= TRUE
-      border				= { 3, 3, 3, 3 }
-      orientation			= VERTICAL
-    }
-  }
+	engine "murrine" {
+		border_shades = { 1.0, 1.0 }
+		trough_border_shades = { 1.0, 1.0 }
+	}
 }
 
 
