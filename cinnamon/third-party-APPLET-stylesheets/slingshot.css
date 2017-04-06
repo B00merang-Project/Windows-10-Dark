@@ -90,21 +90,18 @@
     padding: 0;
 }
 
-.slingshot .app:hover {
+.slingshot .app:hover,
+.slingshot .app:focus {
 /*    border-image: url("../background-assets/hover.svg") 4;*/
     color: #fff;
     border-color: white;
 }
 
-.slingshot .app:focus {
-    border-image: url("../background-assets/hover.svg") 4;
-    background-gradient-direction: vertical;
-    background-gradient-end: transparent;
-    background-gradient-start: transparent;
-    background-color: transparent;
-    color: #fff;
-}
+/* -- Search App Button -- */
 
+.slingshot .button.app.search {
+    background-color: transparent;
+}
 
 /*--- Sidebar Buttons ---*/
 
@@ -266,4 +263,18 @@
 .slingshot .linked .button:checked:only-child {
     border-image: url("../buttons/button-pressed.svg") 7;
     color: #fff;
+}
+
+/* power off button (new) */
+.slingshot .button.flat {
+    color: rgba(255,255,255,0.75);
+    padding: none;
+    border-image: none;
+}
+
+/* pager buttons */
+.slingshot .button.switcher,
+.slingshot .button.switcher:active {
+    font-size: 7pt;
+    border-image: none;
 }
