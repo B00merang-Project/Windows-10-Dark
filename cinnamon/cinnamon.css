@@ -1453,7 +1453,7 @@ background-color: none;
 
 .menu-favorites-button:hover {
 /*    border-image: url("background-assets/hover.svg") 4;*/
-    border-color: white;
+    border-color: rgba(255,255,255,0.3);
 }
 
 .menu-places-box {
