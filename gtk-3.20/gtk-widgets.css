@@ -1607,6 +1607,7 @@ scale {
     min-height: 10px;
     min-width: 10px;
     padding: 12px; 
+    background-colo: transparent;
 }
 
 scale slider {
