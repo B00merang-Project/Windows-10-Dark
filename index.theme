@@ -3,10 +3,12 @@ Type=X-GNOME-Metatheme
 Name=Windows 10 Dark
 Comment=Windows 10 UI for Linux OSes
 Comment=Author : Christian Medel (Elbullazul)
-Version=v0.9.8
+Version=v2.0
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
 GtkTheme=Windows 10 Dark
 MetacityTheme=Windows 10 Dark
-ButtonLayout=:minimize,maximize,close
+IconTheme=Windows 10
+CursorTheme=DMZ-White
+ButtonLayout=menu:minimize,maximize,close
