@@ -2,14 +2,11 @@
 # Author: Elbullazul <cmedelahumada@gmail.com>
 # License: GPL-3.0+
 
-active_text_color=#878787
-inactive_text_color=#cfcfcf
-button_offset=10
-button_spacing=15
+active_text_color=#ffffff
+inactive_text_color=#8c8c8c
 show_app_icon=true
 full_width_title=true
 maximized_offset=10
-title_horizontal_offset=3
 title_shadow_active=false
 title_shadow_inactive=false
 title_vertical_offset_active=0
