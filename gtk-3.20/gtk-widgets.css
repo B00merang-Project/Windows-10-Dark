@@ -585,10 +585,12 @@ infobar {
   border-style: solid;
   border-color: shade(@info_bg_color, 0.8);
   color: @info_fg_color;
+  background-image: none;
   background-color: @info_bg_color; }
   .info button {
     border-color: shade(@info_bg_color, 0.8);
     color: @info_fg_color;
+    background-image: none;
     background-color: shade(@info_bg_color, 1.08); }
     .info button:hover {
       border-color: shade(@info_bg_color, 0.85);
@@ -611,10 +613,12 @@ infobar {
   border-style: solid;
   border-color: shade(@warning_bg_color, 0.8);
   color: @warning_fg_color;
+  background-image: none;
   background-color: @warning_bg_color; }
   .warning button {
     border-color: shade(@warning_bg_color, 0.8);
     color: @warning_fg_color;
+    background-image: none;
     background-color: shade(@warning_bg_color, 1.08); }
     .warning button:hover {
       border-color: shade(@warning_bg_color, 0.85);
@@ -637,10 +641,12 @@ infobar {
   border-style: solid;
   border-color: shade(@question_bg_color, 0.8);
   color: @question_fg_color;
+  background-image: none;
   background-color: @question_bg_color; }
   .question button {
     border-color: shade(@question_bg_color, 0.8);
     color: @question_fg_color;
+    background-image: none;
     background-color: shade(@question_bg_color, 1.08); }
     .question button:hover {
       border-color: shade(@question_bg_color, 0.85);
@@ -663,10 +669,12 @@ infobar {
   border-style: solid;
   border-color: shade(@error_bg_color, 0.8);
   background-color: @error_bg_color;
+  background-image: none;
   color: @error_fg_color; }
   .error button {
     border-color: shade(@error_bg_color, 0.8);
     color: @error_fg_color;
+    background-image: none;
     background-color: shade(@error_bg_color, 1.08); }
     .error button:hover {
       border-color: shade(@error_bg_color, 0.85);
@@ -766,6 +774,14 @@ popover.background.touch-selection, .csd popover.background.touch-selection {
   border-width: 0 1px 1px 1px;
   border-style: solid;
   background-color: @theme_bg_color; }
+
+button.circular, button.circular-button {
+  padding: 0;
+  min-width: 16px;
+  min-height: 24px;
+  padding: 2px 6px;
+  border-radius: 50%;
+  -gtk-outline-radius: 50%; }
 
 menu, .menu {
   margin: 4px;
@@ -1984,6 +2000,7 @@ treeview {
     border-width: 0 1px 1px 0;
     border-radius: 0; }
     treeview header button, treeview header button:active, treeview header button:focus, treeview header button:active:focus {
+      background-image: none;
       background-color: @theme_bg_color; }
     treeview header button:hover, treeview header button:active:hover, treeview header button:hover:focus, treeview header button:active:hover:focus {
       color: @theme_selected_fg_color;
@@ -2427,7 +2444,7 @@ panel-toplevel.background na-tray-applet {
   .mate-panel-menu-bar menubar, .mate-panel-menu-bar menubar menuitem, .mate-panel-menu-bar togglebutton {
     border-color: transparent;
     background-color: transparent; }
-  .mate-panel-menu-bar menubar menuitem:hover .mate-panel-menu-bar:activer {
+  .mate-panel-menu-bar menubar menuitem:hover .mate-panel-menu-bar:active {
     color: @theme_selected_fg_color;
     background-color: @theme_selected_bg_color; }
   .mate-panel-menu-bar .menubar > .menuitem {
