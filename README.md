@@ -14,7 +14,7 @@ GTK theme based on the appearance of Windows 10 using the included dark mode.
 
 For the moment, this theme works with the following Desktop environments : 
 - Cinnamon 3.x and 4.x (beta)
-- GNOME-SHELL 3.14 - 3.22
+- GNOME-SHELL 3.14 and higher
 - XFCE 4.x
 - MATE 1.8 and higher
 - LXDE 0.8/0.10 and higher
