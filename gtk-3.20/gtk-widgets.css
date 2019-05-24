@@ -643,8 +643,7 @@ entry {
   entry.flat, entry.flat:focus {
     padding: 3px;
     border: none;
-    border-radius: 0;
-    background-color: transparent; }
+    border-radius: 0; }
   entry.search {
     border-radius: 0px; }
 
