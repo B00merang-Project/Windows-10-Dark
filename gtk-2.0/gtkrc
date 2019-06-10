@@ -15,8 +15,8 @@ gtk-color-scheme	= "link_color:#224ba0" # Hyperlinks
 gtk-color-scheme	= "panel_bg:#000000" # Panel bg color
 gtk-color-scheme	= "fm_color:#ffffff" # Color used in Nautilus and Thunar.
 gtk-color-scheme	= "bg_color_dark:#ffffff"
-gtk-color-scheme	= "text_color_dark:#000000"
-gtk-color-scheme	= "shadow_color:#ffffff" # Xfce desktp icons shadow color
+gtk-color-scheme	= "text_color_dark:#ffffff"
+gtk-color-scheme	= "shadow_color:#000000" # Xfce desktp icons shadow color
 
 gtk-icon-sizes          = "panel-applications-menu=24,24:panel-menu=24,24:panel=16,16:gtk-button=16,16"
 gtk-button-images	= 1					# Disables icons for buttons with text
