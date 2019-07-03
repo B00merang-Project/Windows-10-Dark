@@ -1,8 +1,10 @@
-# Windows 10 Transformation Pack (Dark)
+[![built-with-azurra-framework](https://github.com/Elbullazul/Azurra_framework/raw/assets/azurra_framework_smaller.png)](https://github.com/Elbullazul/Azurra_framework)
+
+# Windows 10 Dark theme for Linux
 
 GTK theme based on the appearance of Windows 10 using the included dark mode.
 
-![Windows-10-TP-by-B00merang](https://github.com/B00merang-Project/gallery/raw/master/Windows%2010%20Dark%20(3).png)
+![Windows-10-Dark](https://github.com/B00merang-Project/gallery/raw/master/Windows%2010%20Dark%20(3).png)
 
 **Maintainer :** [Elbullazul](https://github.com/Elbullazul)
 
