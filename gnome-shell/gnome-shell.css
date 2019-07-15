@@ -110,12 +110,15 @@ StScrollBar {
 /* Slider */
 .slider {
 	height: 1.09em;
-	-slider-height: 3px;
-	-slider-background-color: white;
-	-slider-border-color: #adadad;
-	-slider-active-background-color:#c6c6c6;
-	-slider-active-border-color:#c6c6c6;
-	-slider-border-width: 0px;
+	-barlevel-height: 0.3em;
+	-barlevel-background-color: white;
+	-barlevel-border-color: #adadad;
+	-barlevel-active-background-color: #c6c6c6;
+	-barlevel-active-border-color: #c6c6c6;
+	-barlevel-overdrive-color: #b2161d;
+	-barlevel-overdrive-border-color: #851015;
+	-barlevel-overdrive-separator-width: 0.2em;
+	-barlevel-border-width: 0px;
 	-slider-handle-radius: 6px; }
 
 /* Check Boxes */
@@ -480,14 +483,16 @@ StScrollBar {
 	margin: 32px;
 	min-width: 64px;
 	min-height: 64px; }
-	.osd-window .osd-monitor-label {
-		font-size: 3em; }
-	.osd-window .level {
-		height: 0.6em;
-		border-radius: 0.3em;
-		background-color: rgba(0, 0, 0, 1);
-		color: white; }
-
+.osd-window .osd-monitor-label {
+    font-size: 3em; }
+.osd-window .level {
+    height: 0.6em;
+    -barlevel-height: 0.6em;
+    -barlevel-background-color: rgba(0, 0, 0, 1);
+    -barlevel-active-background-color: #eeeeec;
+    -barlevel-overdrive-color: #b2161d;
+    -barlevel-overdrive-separator-width: 0.2em; }
+    
 /* App Switcher (alt-tab) */
 .switcher-popup {
 	padding: 8px;
@@ -588,7 +593,7 @@ StScrollBar {
 	font-weight: normal;
 	color: white;
 	height: 32px;
-	background-color: rgba(0, 0, 0, 0.9);
+	background-color: rgba(10, 10, 10, 0.8);
 	text-shadow: 0 0 4px 0 transparent;
 }
 	#panel.solid {
@@ -614,6 +619,8 @@ StScrollBar {
 		-minimum-hpadding: 6px;
 		font-weight: normal;
 		color: white;
+		text-shadow:none;
+		icon-shadow:none;
 		transition-duration: 100ms;
 }
 		#panel .panel-button .app-menu-icon {
@@ -634,14 +641,19 @@ StScrollBar {
 			text-shadow:none;
 			icon-shadow:none; }
 			#panel .panel-button:active > .system-status-icon, #panel .panel-button:overview > .system-status-icon, #panel .panel-button:focus > .system-status-icon, #panel .panel-button:checked > .system-status-icon {
-				icon-shadow: black 0 2px 2px; }
+				icon-shadow: none;
+				/*icon-shadow: black 0 2px 2px;*/ }
 		#panel .panel-button .system-status-icon {
 			icon-size: 1.09em;
 			padding: 0 5px; }
 		.unlock-screen #panel .panel-button, .login-screen #panel .panel-button, .lock-screen #panel .panel-button {
-			color: white; }
+			color: white;
+			text-shadow:none;
+			icon-shadow:none; }
 			.unlock-screen #panel .panel-button:focus, .unlock-screen #panel .panel-button:hover, .unlock-screen #panel .panel-button:active, .login-screen #panel .panel-button:focus, .login-screen #panel .panel-button:hover, .login-screen #panel .panel-button:active, .lock-screen #panel .panel-button:focus, .lock-screen #panel .panel-button:hover, .lock-screen #panel .panel-button:active {
-				color: white; }
+				color: white;
+				text-shadow:none;
+			  icon-shadow:none; }
 	#panel .panel-status-indicators-box,
 	#panel .panel-status-menu-box {
 		spacing: 2px; }
@@ -659,7 +671,7 @@ StScrollBar {
 }
 
 .system-status-icon {
-	icon-shadow: white 0 0 4px;
+	icon-shadow: none; /*white 0 0 4px;*/
 }
 #calendarArea {
 	padding: 0.75em 1.0em;
@@ -793,11 +805,12 @@ StScrollBar {
 	background-image: none;
 	text-shadow:none;
 	font-weight: bold;
-    border-radius: 0;
-    box-shadow: inset 0 0 0 2px black;
-    background-color: #026ec4;
-    border: 2px solid #026ec4;
-    margin: 0; }
+	color: white;
+  border-radius: 0;
+  box-shadow: inset 0 0 0 2px black;
+  background-color: #026ec4;
+  border: 2px solid #026ec4;
+  margin: 0; }
     
 .calendar-today:hover {
     border: 2px solid rgba(255,255,255,0.5);
@@ -884,8 +897,8 @@ StScrollBar {
 }
 
 .system-switch-user-submenu-icon {
-	icon-size: 48px;
-	border: none; }
+	icon-size: 16px;
+  	padding: 0 4px; }
 
 #appMenu {
 	spinner-image: none /*url("assets/process-working.svg")*/;
@@ -1158,12 +1171,6 @@ StScrollBar {
 	icon-shadow: 0 0 5px 0px #222;
 	color: transparent;
 }
-/* Windows Start Icon on Dash Apps button */
-.show-apps .overview-icon {
-  background-image: url("assets/view-grid-symbolic.svg") !important;
-  background-size: contain !important;
-  color: transparent;
-}
 
 .show-apps StWidget,
 .show-apps StWidget:hover,
@@ -1303,7 +1310,7 @@ StScrollBar {
 	box-shadow: inset 0 -2px 0 0 transparent;
 	width: 35px;
 	height: 3px;
-	background-color: rgba(53,156,196,0.95);
+	background-color: #6db8f2;
 	margin-bottom: 2px;
 }
 
