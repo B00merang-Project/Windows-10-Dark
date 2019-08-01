@@ -52,7 +52,7 @@ style "default"
 
 	GtkPaned		::handle-size          			= 3
 
-	GtkNotebook		::tab-overlap				= 0
+	GtkNotebook		::tab-overlap				= 1
 
 	GtkProgressBar		::min-vertical-bar-width		= 14
 	GtkProgressBar		::min-horizontal-bar-height		= 14
@@ -116,7 +116,7 @@ style "default"
 	text[PRELIGHT]    = @text_color
 	text[ACTIVE]      = @selected_fg_color
 	text[SELECTED]    = @selected_fg_color
-	text[INSENSITIVE] = darker (@bg_color)
+	text[INSENSITIVE] = darker (@fg_color)
 
 	engine "murrine"
 	{
@@ -292,10 +292,10 @@ style "menu"
 	GtkMenuBar	:: shadow-type		= GTK_SHADOW_NONE
 
 	bg[SELECTED]      = @selected_bg_color
-	bg[NORMAL]        = mix(0.5, @bg_color, @base_color)
+	bg[NORMAL]        = @bg_color
 	bg[PRELIGHT]      = @selected_bg_color
 	bg[ACTIVE]        = shade (1.18, @bg_color)
-	bg[INSENSITIVE]   = shade (0.95, @bg_color)
+	bg[INSENSITIVE]   = @bg_color
 	fg[NORMAL]        = @fg_color # Color for normal text.
 	fg[PRELIGHT]      = @selected_fg_color
 	fg[SELECTED]      = @base_color
@@ -1260,7 +1260,7 @@ style "text-is-fg-color-workaround"
 	text[PRELIGHT]    = @fg_color
 	text[SELECTED]    = @selected_fg_color
 	text[ACTIVE]      = @fg_color
-	text[INSENSITIVE] = darker (@bg_color)
+	text[INSENSITIVE] = darker (@fg_color)
 }
 widget_class "*.<GtkComboBox>.<GtkCellView>"	style "text-is-fg-color-workaround"
 
@@ -1270,7 +1270,7 @@ style "menuitem-text-is-fg-color-workaround"
 	text[PRELIGHT]      = @selected_fg_color
 	text[SELECTED]      = @selected_fg_color
 	text[ACTIVE]        = @fg_color
-	text[INSENSITIVE]   = darker (@bg_color)
+	text[INSENSITIVE]   = darker (@fg_color)
 }
 widget "*.gtk-combobox-popup-menu.*"	style "menuitem-text-is-fg-color-workaround"
 
@@ -1289,6 +1289,22 @@ widget_class "*<GtkListItem>*"		style "fg-is-text-color-workaround"
 # Only match GtkCList and not the parent widgets, because that would also change the headers.
 widget_class "*<GtkCList>"		style "fg-is-text-color-workaround"
 widget_class "*<EelEditableLabel>"	style "fg-is-text-color-workaround"
+
+# Text Style
+style "text" = "default" {
+  engine "murrine" { textstyle = 0 }
+}
+
+style "menu_text" = "menu_item" {
+  engine "murrine" { textstyle = 0 }
+}
+
+# Fixes ugly text shadows for insensitive text
+widget_class "*<GtkLabel>"                                          style "text"
+widget_class "*<GtkMenu>*<GtkLabel>"                                style "menu_text" 
+widget_class "*<GtkComboBox>*<GtkCellLayout>"                       style "text"
+widget_class "*<GtkNotebook>*<GtkLabel>"                            style "text"
+widget_class "*<GtkNotebook>*<GtkCellLayout>"                       style "text"
 
 # panel theming
 include "panel.rc"
