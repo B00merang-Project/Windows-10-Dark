@@ -15,8 +15,8 @@
    height="24"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="submenu-bg.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="entry-focused.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
    style="display:inline;enable-background:new">
@@ -29,29 +29,29 @@
      borderopacity="1"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="20.594485"
-     inkscape:cx="14.918374"
-     inkscape:cy="12"
+     inkscape:zoom="15.431819"
+     inkscape:cx="4.7232739"
+     inkscape:cy="16.262409"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:showpageshadow="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="846"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
      inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-y="0"
      width="400px"
      height="300px"
      inkscape:snap-nodes="true"
      inkscape:snap-bbox="true"
      gridtolerance="10000"
-     inkscape:object-nodes="false"
+     inkscape:object-nodes="true"
      inkscape:snap-grids="true"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:window-maximized="1"
-     inkscape:bbox-nodes="false"
+     inkscape:bbox-nodes="true"
      inkscape:bbox-paths="false"
      inkscape:snap-bbox-edge-midpoints="false"
      inkscape:snap-bbox-midpoints="false"
@@ -62,7 +62,8 @@
      guidecolor="#ff0b00"
      guideopacity="1"
      guidehicolor="#001aff"
-     guidehiopacity="0.49803922">
+     guidehiopacity="0.49803922"
+     inkscape:snap-smooth-nodes="true">
     <inkscape:grid
        type="xygrid"
        id="grid3123"
@@ -130,48 +131,13 @@
      id="layer1"
      transform="translate(0,-276)">
     <rect
-       style="opacity:0.05000000000000000;fill:#ffffff;fill-opacity:1;stroke:none"
-       id="rect3985"
-       width="24"
-       height="24"
-       x="0"
-       y="0"
-       transform="translate(0,276)" />
-    <rect
-       y="278"
-       x="0"
-       height="1"
-       width="24"
-       id="rect3989"
-       style="opacity:0.25;fill:#000000;fill-opacity:1;stroke:none" />
-    <rect
-       style="opacity:0.1;fill:#000000;fill-opacity:1;stroke:none"
-       id="rect3991"
-       width="24"
-       height="1"
-       x="0"
-       y="279" />
-    <rect
-       style="opacity:0.2;fill:#ffffff;fill-opacity:1;stroke:none"
-       id="rect4023"
-       width="24"
-       height="1"
-       x="0"
-       y="23"
-       transform="translate(0,276)" />
-    <rect
-       y="277"
-       x="0"
-       height="1"
-       width="24"
-       id="rect3756"
-       style="opacity:0.6;fill:#000000;fill-opacity:1;stroke:none" />
-    <rect
-       y="276"
-       x="0"
-       height="1"
-       width="24"
-       id="rect2988"
-       style="opacity:0.3;fill:#ffffff;fill-opacity:1;stroke:none" />
+       style="opacity:1;fill:#ffffff;fill-opacity:0.19607843;stroke:#ffffff;stroke-width:1.24528289;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.80379748"
+       id="rect3021"
+       width="20.754719"
+       height="20.754709"
+       x="1.6226414"
+       y="277.62265"
+       ry="0"
+       rx="0" />
   </g>
 </svg>
