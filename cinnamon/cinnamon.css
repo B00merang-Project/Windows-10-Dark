@@ -1999,6 +1999,8 @@ StScrollBar StButton#hhandle:focus {
 
 .applet-icon {
   icon-size: 12px;
+  padding left: 3px;
+  padding right: 3px;
 }
 
 .applet-icon:hover,
