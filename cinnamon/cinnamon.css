@@ -1970,8 +1970,9 @@ StScrollBar StButton#hhandle:focus {
 .applet-box {
   font-weight: normal;
   color: #ffffff;
-  padding-left: 6px;
-  padding-right: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  spacing: 5px;
 }
 
 .applet-box.vertical {
@@ -1999,8 +2000,6 @@ StScrollBar StButton#hhandle:focus {
 
 .applet-icon {
   icon-size: 12px;
-  padding-left: 3px;
-  padding-right: 3px;
 }
 
 .applet-icon:hover,
