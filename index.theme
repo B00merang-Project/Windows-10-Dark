@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Windows 10 Dark
-Comment=Windows 10 Dark UI for Linux OSes
+Name=Windows-10-Dark
+Comment=Windows-10-Dark UI for Linux OSes
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Windows 10 Dark
-MetacityTheme=Windows 10 Dark
-IconTheme=Windows 10 Dark
+GtkTheme=Windows-10-Dark
+MetacityTheme=Windows-10-Dark
+IconTheme=Windows-10-Icons
 CursorTheme=DMZ-White
 ButtonLayout=menu:minimize,maximize,close
