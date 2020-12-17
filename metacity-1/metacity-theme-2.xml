@@ -33,11 +33,11 @@
 <constant name="C_icon_close_bg_active" value="#ffffff" />
 
 <!-- minimize, maximize, etc. -->
-<constant name="C_button_bg_focused" value="#ffffff" />
-<constant name="C_button_bg_unfocused" value="#ffffff" />
-<constant name="C_button_bg_hover" value="#dcdcdc" />
-<constant name="C_button_bg_active" value="#bfbfbf" />
-
+<constant name="C_button_bg_focused" value="#1f1f1f" />
+<constant name="C_button_bg_unfocused" value="#1f1f1f" />
+<constant name="C_button_bg_hover" value="#404040" />
+<constant name="C_button_bg_active" value="#5e5e5e" />
+	
 <constant name="C_icon_bg_focused" value="#000000" />
 <constant name="C_icon_bg_unfocused" value="#cfcfcf" />
 <constant name="C_icon_bg_hover" value="#000000" />
