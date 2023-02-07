@@ -10,9 +10,9 @@ GTK theme based on the appearance of Windows 10 using the included dark mode.
 - Any GTK-based desktop
 - Cinnamon
 - Gnome
+- LXDE/Openbox
 - MATE
 - Xfce
-- LXDE/Openbox
 
 ### Manual installation
 Go to releases, download the latest `.zip` file and extract it to the themes directory i.e. `/home/USERNAME/.themes`
