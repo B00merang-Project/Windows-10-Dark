@@ -6,6 +6,7 @@ Encoding=UTF-8
 
 [X-GNOME-Metatheme]
 GtkTheme=Windows-10-Dark
+GtkColorScheme=prefer-dark
 MetacityTheme=Windows-10-Dark
 IconTheme=Windows-10-Icons
 CursorTheme=DMZ-White
