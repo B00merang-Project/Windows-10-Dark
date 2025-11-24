@@ -1623,7 +1623,7 @@ StScrollBar StButton#hhandle:focus {
   caret-color: black;
   caret-size: 1px;
   width: 400px;
-  height: 15px;
+  height: auto;
 }
 
 #menu-search-entry:focus,
